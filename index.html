@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#000" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/os.css" />
+  <title>JS-Droid</title>
+</head>
+<body>
+  <div id="lock-screen">Tap to Unlock</div>
+  <div id="home-screen" class="hidden">
+    <div id="status-bar">
+      <span id="status-time">12:00</span>
+      <span id="status-icons">🔋 📶</span>
+    </div>
+    <div id="app-grid"></div>
+    <div id="dock"></div>
+  </div>
+
+  <script type="module" src="js/core.js"></script>
+</body>
+</html>
