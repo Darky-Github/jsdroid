@@ -1,12 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const lockScreen = document.getElementById('lock-screen');
-  const homeScreen = document.getElementById('home-screen');
-
-  lockScreen.addEventListener('click', () => {
-    lockScreen.classList.add('hidden');
-    homeScreen.classList.remove('hidden');
-    startOS();
-  });
+  startOS();
 
   function startOS() {
     console.log('[JS-Droid] Boot complete.');
@@ -40,6 +33,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function openApp(appId) {
-    alert(`Opening ${appId}...`); // Replace with actual app logic
+    alert(`Opening ${appId}...`); // Placeholder
   }
 });
