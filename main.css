@@ -1,0 +1,19 @@
+:root {
+  --bg-color: #f2f2f2;
+  --text-color: #000;
+  --accent: #007aff;
+  --icon-size: 64px;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+  touch-action: manipulation;
+  user-select: none;
+}
+
+.hidden {
+  display: none;
+}
